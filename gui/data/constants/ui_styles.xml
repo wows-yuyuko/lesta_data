@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<constants>
+	<enum name="SERVICE_COLORS" type="Hex">
+		<const name="BLACK"					value="0xFF000000"/>
+		<const name="ALMOST_BLACK"			value="0xFF08222A"/>
+		<const name="YELLOW"				value="0xFFFFD966"/>
+		<const name="DARK_BLUE"				value="0xFF001438"/>
+		<const name="LIGHT_BLUE"			value="0xFF98DEDE"/> <!--EliteXP-->
+		<const name="ACCENT_BLUE"			value="0xFF4CD6E8"/>
+		<const name="ORANGE"				value="0xFFFF9933"/>
+		<const name="DARK_RED"				value="0xFFFF3300"/>
+		<const name="RED"					value="0xFFFF6600"/>
+		<const name="WHITE"					value="0xFFFFFFFF"/>
+		<const name="GREEN"					value="0xFF4CE8AA"/>
+		<const name="LIGHT_GREEN"			value="0xFFCCFF99"/> <!--FreeXP-->
+		<const name="PINK"					value="0xFFFF96CA"/>
+		<const name="PAPER"					value="0xFFDED1BE"/>
+		<const name="MATTE_BLACK"			value="0xFF111111"/>
+		<const name="GRAY"					value="0xFFDDDDDD"/>
+		<const name="INNER_PANEL"			value="0x33000000"/>
+		<const name="CONTRAST_PANEL"		value="0xFF383F4D"/>
+		<const name="MENU_ITEM"				value="0x20FFFFFF"/>
+		<const name="DOCK_BUTTON"			value="0x66222929"/>
+		<const name="MARKER_NEW"			value="0xFFD20020"/>
+	</enum>
+
+	<enum name="UNIFIED_STATUS" type="String">
+		<const name="DEFAULT"				value="default" />
+		<const name="CHECK"					value="check" />
+		<const name="DATE"					value="date" />
+		<const name="DATE_ATTENTION"		value="date_attention" />
+		<const name="ATTENTION"				value="attention" />
+		<const name="NEGATIVE"				value="negative" />
+		<const name="WARNING"				value="warning" />
+		<const name="LOCK"					value="lock" />
+		<const name="MOUSE_LEFT"			value="mouse_left_click" />
+		<const name="MOUSE_DOUBLE_LEFT"		value="mouse_left_double_click" />
+		<const name="MOUSE_RIGHT"			value="mouse_right_click" />
+		<const name="MOUSE_SCROLL"			value="mouse_scroll" />
+		<const name="HIDDEN"				value="hidden" />
+		<const name="SHIP_NOT_DETECTED"		value="ship_not_detected" />
+		<const name="REWARD_AVAILABLE"		value="reward_available" />
+		<const name="REWARD_DEFAULT"		value="reward_default" />
+		<const name="CAMPAIGN_REWARD"		value="campaign_reward" />
+		<const name="CONTAINER_REWARD"		value="container_reward" />
+		<const name="BROTHERHOOD"			value="brotherhood" />
+		<const name="BROTHERHOOD_REWARD"	value="brotherhood_reward" />
+		<const name="SALE_AVAILABLE"		value="sale" />
+		<const name="INFO"					value="info" />
+		<const name="LINKED"				value="linked" />
+		<const name="REPAINTED"				value="repainted" />
+		<const name="UPDATE"				value="update" />
+		<const name="EPIC_SKILL"			value="epic_skill" />
+		<const name="UNIQUE_CREW"			value="unique_crew" />
+		<const name="ADVANCED_CREW"			value="advanced_crew" />
+		<const name="IN_BATTLE"				value="in_battle" />
+		<const name="RECOMMENDED"			value="recommended" />
+		<const name="RETRAINING"			value="retraining" />
+		<const name="EARLY_ACCESS"			value="early_access" />
+		<const name="OUT_BATTLE"			value="out_battle" />
+		<const name="TO_ARMORY"				value="to_armory" />
+		<const name="INFINITE"				value="infinite" />
+		<const name="PERMOBOOST_ACTIVE"		value="permoboost_active" />
+		<const name="ABUSE_NORMAL"			value="abuse_normal" />
+		<const name="ABUSE_SUSPECT"			value="abuse_suspect" />
+		<const name="ABUSE_CONFIRMED"		value="abuse_confirmed" />
+		<const name="KEY_TARGET"			value="key_target" />
+		<const name="BATTLEPASS"			value="battlepass" />
+		<const name="CALENDAR"				value="calendar" />
+		<const name="CALENDAR_ATTENTION"	value="calendar_attention" />
+		<const name="BURST_FIRE"			value="burst_fire" />
+		<const name="NO_ICON"				value="no_icon" />
+		<const name="PVE_MODIFIER"			value="pve_modifier" />
+		<const name="NOTIFICATION"			value="notification" />
+		<const name="HAS_BATTLE_MODIFIERS"	value="has_battle_modifiers" />
+		<const name="PRIMARY"				value="primary" />
+		<const name="SELECTED"				value="selected" />
+		<const name="WITHOUT_COMMANDER"		value="without_commander" />
+		<const name="COMMANDER_READY"		value="division_another_player_commander" />
+		<const name="COMMANDER_NOT_READY"	value="division_another_player_commander_not_ready" />
+		<const name="UPGRADE_AVAILABLE"		value="upgrade_available" />
+		<const name="VOICE"					value="voice" />
+		<const name="VOICE_MUTE"			value="voice_mute" />
+
+		<const name="OBSERVER"				value="observer" />
+		<const name="DISIVION_WANTED_ON"	value="division_wanted_on" />
+		<const name="DISIVION_WANTED_OFF"	value="division_wanted_off" />
+		<const name="DIVISION_INVITE"		value="division_invite" />
+		<const name="OFFLINE"				value="offline" />
+		<const name="REFERAL"				value="referal" />
+		<const name="REFERAL_VETERAN"		value="referal_veteran" />
+
+		<const name="VOICE_CHAT_ON"			value="voice_chat_on" />
+		<const name="VOICE_CHAT_OFF"		value="voice_chat_off" />
+		<const name="VOICE_CHAT_MUTED"		value="voice_chat_muted" />
+
+		<const name="VICTORY"				value="victory" />
+		<const name="DEFEAT"				value="defeat" />
+		<const name="SHIP_CRAFT_AVAILABLE"	value="ship_craft_available" />
+		<const name="SHIP_INFO_HIDDEN"		value="ship_info_hidden" />
+		<const name="SHIP_MASTERY_TRIAL"	value="ship_mastery_trial" />
+		<const name="REPLACED_CONSUMABLES"	value="replaced_consumables" />
+
+		<const name="RESISTANCE_REWARD"		value="resistance_reward" />
+		<const name="PIN"					value="pin" />
+
+		<const name="NQ_CURRENT_THRESHOLD"	value="nq_current_threshold" />
+		<const name="NQ_COMPLETED_TASKS_COUNT"	value="nq_completed_tasks_count" />
+	</enum>
+
+	<enum name="BUTTON_TYPE" type="String">
+		<const name="DEFAULT"			value="default"/>
+		<const name="ACCENT"			value="accent"/>
+		<const name="SECONDARY"			value="secondary"/>
+		<const name="ICON"				value="icon"/>
+		<const name="ICON_SECONDARY"	value="icon_secondary"/>
+	</enum>
+
+	<enum name="BUTTON_ICON" type="String">
+		<const name="ADD"			value="add"/>
+		<const name="INFO"			value="info"/>
+		<const name="CHAT"			value="chat"/>
+		<const name="ENTER"			value="enter"/>
+		<const name="NOTIFICATION"	value="notification"/>
+		<const name="CAMERA"		value="camera"/>
+		<const name="UPDATE"		value="update"/>
+		<const name="REMOVE"		value="remove"/>
+		<const name="GENERAL_VIEW"	value="general_view"/>
+		<const name="ORDER_SWITCH"	value="order_switch"/>
+		<const name="CLOSE"			value="close"/>
+		<const name="RESET"			value="reset"/>
+	</enum>
+
+	<enum name="TOOLTIP_SYSTEM_HEADER_ICON_TYPE" type="Number">
+		<const name="SIMPLE"			value="0"/>
+		<const name="WITH_AMOUNT"		value="1"/>
+		<const name="CAMO_REPAINT"		value="2"/>
+		<const name="RIBBON"			value="3"/>
+		<const name="CREW"				value="4"/>
+		<const name="ECO_BOOST"			value="5"/>
+		<const name="CAMPAIGN"			value="6"/>
+		<const name="CREW_SKILL"		value="7"/>
+		<const name="PBS_WITH_AMOUNT"	value="8"/>
+	</enum>
+
+	<enum name="TOOLTIP_SYSTEM_LIST_ITEM_TYPE" type="Number">
+		<const name="ACHIEVEMENT"			value="0"/>
+		<const name="BRANCH_FEATURE"		value="1"/>
+		<const name="SUBRIBBON"				value="2"/>
+	</enum>
+
+	<enum name="SSE_TYPES" type="String">
+		<const name="TASK"			value="task"/>
+		<const name="CHALLENGE"		value="challenge"/>
+		<const name="EVENT"			value="event"/>
+	</enum>
+
+	<enum name="TOOLTIP_SYSTEM_BORDER_STATUS" type="String">
+		<const name="DEFAULT"			value="default"/>
+		<const name="ATTENTION"			value="attention"/>
+	</enum>
+
+	<enum name="TOOLTIP_SYSTEM_PARAMS_MODIFIERS_STATUS" type="String">
+		<const name="POSITIVE"			value="positive"/>
+		<const name="NEUTRAL"			value="neutral"/>
+		<const name="NEGATIVE"			value="negative"/>
+	</enum>
+
+	<enum name="BUTTON_STATE" type="Number">
+		<const name="DISABLED"			value="0"/>
+		<const name="SELECTED"			value="1"/>
+		<const name="DOWN"				value="2"/>
+		<const name="OVER"				value="3"/>
+		<const name="UP"				value="4"/>
+		<const name="SELECTED_OVER"		value="5"/>
+		<const name="SELECTED_DISABLED"	value="6"/>
+		<const name="SELECTED_DOWN"		value="7"/>
+	</enum>
+
+	<enum name="ANIMATED_BG" type="Number">
+		<const name="DEFAULT"					value="0"/>
+		<const name="SSE"						value="1"/>
+		<const name="ALMANAC_AND_SNOWFLAKES"	value="2"/>
+		<const name="BATTLEPASS"				value="3"/>
+		<const name="ARC_EVENT"					value="4"/>
+		<const name="DETAILED_SHIP_ACES"		value="5"/>
+		<const name="RANKS"						value="6"/>
+		<const name="DETAILED_CAMPAIGN"			value="7"/>
+		<const name="ARCHIVE"					value="8"/>
+		<const name="RATING_BATTLES"			value="9"/>
+		<const name="PROFILE"					value="10"/>
+		<const name="BATTLE_RULES"				value="11"/>
+		<const name="EVENT_RULES"				value="12"/>
+		<const name="WAFFENTRAGER"				value="13"/>
+	</enum>
+
+	<enum name="SHIP_CLASSES_STATE" type="String">
+		<const name="ENEMY_SUNK"			value="enemy_sunk"/>
+		<const name="ENEMY_WHITE"			value="enemy_white"/>
+		<const name="ENEMY"					value="enemy"/>
+		<const name="SUNK"					value="sunk"/>
+		<const name="DIVISION"				value="division"/>
+		<const name="TEAMKILLER"			value="teamkiller"/>
+		<const name="ALLY"					value="ally"/>
+		<const name="DEFAULT"				value="default"/>
+	</enum>
+
+	<enum name="SIZE" type="Integer">
+		<const name="SMALL"				value="0"/>
+		<const name="MEDIUM"			value="1"/>
+		<const name="LARGE"				value="2"/>
+		<const name="EXTRA_LARGE"		value="3"/>
+
+		<enum name="NAMES" type="String">
+			<const name="SMALL"			value="small"/>
+			<const name="MEDIUM"		value="medium"/>
+			<const name="LARGE"			value="large"/>
+			<const name="EXTRA_LARGE"	value="extra_large"/>
+		</enum>
+
+		<value_to_name/>
+	</enum>
+
+	<enum name="SHARED_COLOR" type="Hex">
+		<const name="MODAL_WINDOW"		value="0x8007090D"/>
+	</enum>
+
+	<enum name="TRAINING_ROOM_STATE" type="String">
+		<const name="CREATION"			value="creation"/>
+		<const name="CREATED"			value="created"/>
+	</enum>
+
+</constants>

@@ -1,0 +1,88 @@
+<root>
+
+	<BaseMethods>
+
+		<lootCurrentStage>
+			<Args>
+				<almanacType> STRING </almanacType>
+			</Args>
+			<Exposed/>
+		</lootCurrentStage>
+
+		<lootPreviousMissedStage>
+			<Exposed/>
+		</lootPreviousMissedStage>
+
+		<setCurrentStageAsSeen>
+			<Args>
+				<almanacType> STRING </almanacType>
+			</Args>
+			<Exposed/>
+		</setCurrentStageAsSeen>
+
+	</BaseMethods>
+
+	<ClientMethods>
+
+		<receiveFullState>
+			<Args>
+				<clientDump> ZIPPED_PYTHON </clientDump>
+			</Args>
+			<VariableLengthHeaderSize>
+				<WarnLevel>none</WarnLevel>
+			</VariableLengthHeaderSize>
+		</receiveFullState>
+
+		<onDayChanged>
+			<Args>
+				<progress> ZIPPED_PYTHON </progress> <!-- Almanac progress -->
+			</Args>
+			<VariableLengthHeaderSize>
+				<WarnLevel>none</WarnLevel>
+			</VariableLengthHeaderSize>
+		</onDayChanged>
+
+		<onAlmanacRewardLooted>
+			<Args>
+				<almanacID> UINT32 </almanacID>
+				<stageID> UINT8 </stageID>
+				<isError> BOOL </isError>
+				<manualClaim> BOOL </manualClaim>
+			</Args>
+		</onAlmanacRewardLooted>
+
+		<onAlmanacEnded>
+			<Args>
+				<almanacTypes> ARRAY <of> STRING </of> </almanacTypes>
+			</Args>
+		</onAlmanacEnded>
+
+		<onLootingPointsChanged>
+			<Args>
+				<lootingPoints> UINT16 </lootingPoints>
+			</Args>
+		</onLootingPointsChanged>
+
+		<setNextLootingPointsIncreaseAt>
+			<Args>
+				<nextIncreaseAt> TIMESTAMP </nextIncreaseAt>
+			</Args>
+		</setNextLootingPointsIncreaseAt>
+
+		<onNewAdventAlmanacActivated/>
+
+		<onFirstUnlockSession/>
+
+	</ClientMethods>
+
+	<ofEntity>
+		<Account/>
+	</ofEntity>
+	
+	<ofBWComponent>
+		<base/>
+		<bot/>
+		<client/>
+	</ofBWComponent>
+
+</root>

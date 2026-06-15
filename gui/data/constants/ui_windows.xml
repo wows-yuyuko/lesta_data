@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<constants>
+	<enum name="WINDOWS" type="String">
+		<const name="LOGIN"					value="Login" />
+		<const name="DOCK"					value="Dock" />
+		<const name="DEBUG_DOCK" 			value="DebugDock" />
+		<const name="BATTLE_LOADING" 		value="LoadingBattle" />
+		<const name="DEBUG_BATTLE_LOADING" 	value="DebugLoadingBattle" />
+		<const name="OPTIONS" 				value="Options" />
+	</enum>
+
+	<enum name="MODAL" type="String">
+		<const name="LOBBY"								value="LobbyMenu" />
+		<const name="GAME_MENU"							value="GameMenu" />
+		<const name="WAITING"							value="Waiting" />
+		<const name="HELP"								value="Help" />
+		<const name="LOGIN_QUEUE"						value="LoginQueue" />
+		<const name="CAMPAIGNS"							value="ModalWindowCampaigns" />
+		<const name="CONVERT_EXP"						value="ModalWindowConvertExp" />
+		<const name="CREW_FILE"							value="CrewFile" />
+		<const name="CREW_INFO"							value="ModalWindowCrewInfo"/>
+		<const name="CREW_HIRE"							value="ModalWindowHireCrew" />
+		<const name="CREW_ASSIGN"						value="ModalWindowAssignCrew" />
+		<const name="CREW_RETRAIN"						value="ModalWindowRetrainCrew" />
+		<const name="CREW_MANAGEMENT"					value="ModalWindowCrewManagement" />
+		<const name="CREW_FAST_RETRAIN"					value="ModalWindowCrewFastTraining" />
+		<const name="CREW_PENALTY_COMPENSATION"			value="ModalWindowCrewPenaltyCompensation" />
+		<const name="CREW_PROMOTE_TO_RARE"				value="ModalWindowPromoteCrewToRare" />
+		<const name="TUTORIAL"							value="ModalWindowTutorial" />
+		<const name="EXTERIOR_PURCHASE"					value="ModalWindowBuyExterior" />
+		<const name="ECONOMICS_MANAGEMENT"				value="ModalWindowEconomicsManagement" />
+		<const name="BATTLE_TYPE_CHOOSER"				value="ModalWindowBattleTypeChooser" />
+		<const name="PVE_OPERATION_CHOOSER"				value="ModalWindowPVEOperationChooser" />
+		<const name="RESULT_SCREEN"						value="ResultsScreen" />
+		<const name="RESULT_SCREEN_PORT"				value="ExtendedSystemLogWindow" />
+		<const name="RESULT_SCREEN_PORT_UNAVAILABLE"	value="UnavailableExtendedSystemLogWindow" />
+		<const name="DOGTAGS"							value="ModalWindowDogTag" />
+		<const name="COMPLETE_ACCOUNT"					value="ModalWindowCompleteAccount" />
+		<const name="COACH_COMPLETE_ACCOUNT"			value="ModalCoachWindowCompleteAccount" />
+		<const name="TRAINING_ROOMS_LIST"				value="ModalWindowTrainingRoomsList" />
+		<const name="BATTLE_PASS_PURCHASE"				value="BattlePassPurchase" />
+		<const name="GAME_SETTINGS"						value="ModalWindowPreferences" />
+		<const name="BROWSER_CONTAINER"					value="BrowserWindowContainer" />
+		<const name="TRIALS"							value="ModalWindowTrials" />
+		<const name="REPAIR_DOCK"						value="ModalWindowRepairDock" />
+		<const name="SHIP_BRANCHES_FEATURES"			value="ModalWindowShipsBranchesFeatures" />
+		<const name="STRATEGIC_ACTIONS"					value="ModalWindowStrategicActions" />
+		<const name="REWARD_CONTAINER"					value="ModalWindowRewardContainer" />
+		<const name="SELECT_PORT"						value="ModalWindowSelectPort" />
+		<const name="DAILY_REWARDS"						value="ModalWindowAlmanacs" />
+		<const name="CAMPAIGNS"							value="ModalWindowCampaignsSse" />
+		<const name="PROFILE"							value="ModalWindowPlayerProfile" />
+		<const name="WAFFENTRAGER_PROGRESS"				value="ModalWindowWaffentragerProgress" />
+		<const name="SHIP_INFO_PREVIEW"					value="ModalWindowShipInfoPreview" />
+
+
+		<!-- ================== Ranges ================== -->
+		<range name="DOCK_HEADER_HIDDEN"		values="REWARD_CONTAINER"/>
+	</enum>
+
+	<enum name="PANEL" type="String">
+		<const name="SHIP_CAROUSEL" 	value="ShipsCarouselPanel" />
+		<const name="CHAT_NOTIFICATION" value="ChatNotificationsPanel" />
+		<const name="SHIP_TTH_DOCK" 	value="ShipTTXPanelDock" />
+	</enum>
+
+	<enum name="BROWSER" type="String">
+		<const name="GUIDE_WINDOW"	value="GuideBrowserWindow" />
+	</enum>
+
+	<enum name="ROUTE" type="String">
+		<const name="PORT"						value="port"/>
+
+		<!-- ================== ACTIVITIES ROUTES ================== -->
+		<const name="ACTIVITIES"				value="activities"/>
+
+		<const name="WAFFENTRAGER"				value="waffentrager"/>
+		<const name="EVENTS"					value="events"/>
+		<const name="SSE"						value="sse"/>
+		<const name="META_EVENT"				value="meta_event"/>
+		<const name="LOOTBOXES"					value="lootboxes"/>
+		<const name="SHIP_MASTERY"				value="ship_mastery"/>
+		<const name="REPAIR_DOCK"				value="repair_dock"/>
+
+		<const name="SSE_SHIP_ACES"					value="sse_ship_aces"				/>
+		<const name="SSE_OPEN_ENDED"				value="sse_open_ended"				/>
+		<const name="SSE_NEWBIE_QUESTS"			value="sse_newbie_quests"			/>
+		<const name="SSE_NEWBIE_QUESTS_MAIN"		value="sse_newbie_quests_main"		/>
+		<const name="SSE_NEWBIE_QUESTS_FULL_LIST"	value="sse_newbie_quests_full_list"	/>
+		<const name="SSE_BATTLEPASS"				value="sse_battlepass"				/> <!-- NEED FOR UI -->
+		<const name="SSE_CAMPAIGNS"					value="sse_campaigns"				/> <!-- CAMPAIGNS - PART OF SEE -->
+		<const name="CAMPAIGNS_CHOOSE_CAMPAIGN"		value="campaigns_choose_campaign"	/>
+		<const name="CAMPAIGNS_CHOOSE_TASK"			value="campaigns_choose_task"		/>
+
+		<!-- ================== SHIP ROUTES ================== -->
+		<const name="SHIP"						value="ship"/>
+
+		<const name="OVERVIEW"					value="overview"/>
+		<const name="UPGRADES"					value="upgrades"/>
+		<const name="SURVIVABILITY"				value="survivability"/>
+		<const name="ARMOR"						value="armor"/>
+		<const name="VULNERABILITY"				value="vulnerability"/>
+		<const name="CREW_MANAGEMENT"						value="crew_management"						/>
+		<const name="CREW_ABILITIES_MANAGEMENT"				value="crew_abilities_management"			/>
+		<const name="CREW_ASSIGNMENTS_MANAGEMENT"			value="crew_assignments_management"			/>
+		<const name="CREW_ASSIGNMENTS_MANAGEMENT_SHIPS"		value="crew_assignments_management_ships"	/>
+		<const name="CREW_ASSIGNMENTS_MANAGEMENT_RESERVE"	value="crew_assignments_management_reserve"	/>
+		<const name="ECOBOOSTS"					value="ecoboosts"/>
+		<const name="CAMOUFLAGE"				value="camouflage"/>
+		<const name="ENSIGN"					value="ensign"/>
+		<const name="DECAL"						value="decal"/>
+
+		<!-- ================== RESEARCH ROUTES ================== -->
+		<const name="RESEARCH"					value="research"/>
+
+		<!-- ================== CLAN ROUTES ================== -->
+		<const name="CLAN"						value="clan"/>
+
+		<!-- ================== PROFILE ROUTES ================== -->
+		<const name="PROFILE_CONTENT"			value="profile_content"/>
+
+		<const name="RANKS"						value="ranks"/>
+		<const name="RANKS_BRONZE"				value="ranks_bronze"/>
+		<const name="RANKS_SILVER"				value="ranks_silver"/>
+		<const name="RANKS_GOLD"				value="ranks_gold"/>
+		<const name="RATING"					value="rating"/>
+		<const name="STATS"						value="stats"/>
+		<const name="ACHIEVEMENTS"				value="achievements"/>
+		<const name="COLLECTIONS"				value="collections"/>
+		<const name="ACCOUNT_LEVELING"			value="account_leveling"/>
+		<const name="PROFILE_HIDE"				value="profile_hide"/>
+
+		<!-- ================== GAME_SETTINGS ROUTES ================== -->
+		<const name="MONITOR"					value="monitor"/>
+		<const name="GRAPHICS"					value="graphics"/>
+		<const name="SOUND"						value="sound"/>
+		<const name="BATTLE"					value="battle"/>
+		<const name="CAMERA"					value="camera"/>
+		<const name="MOUSE"						value="mouse"/>
+		<const name="CONTROLS"					value="controls"/>
+		<const name="OTHER"						value="other"/>
+
+		<const name="CONTROLS_SHIPS"			value="controls_ships"/>
+		<const name="CONTROLS_AVIATION"			value="controls_aviation"/>
+		<const name="CONTROLS_CHAT"				value="controls_chat"/>
+		<const name="CONTROLS_SPECTATOR"		value="controls_spectator"/>
+
+		<!-- ================== STANDALONE ROUTES ================== -->
+		<const name="SHIPYARD"					value="shipyard"/>
+		<const name="BATTLE_PASS"				value="battle_pass"/>
+		<const name="SHIP_INFO"					value="ship_info"/>
+
+		<const name="BROWSER_SHIP_PREVIEW"		value="browser_ship_preview"/>
+		<const name="BROWSER_OVERVIEW"			value="browser_overview"/>
+		<const name="BROWSER_UPGRADES"			value="browser_upgrades"/>
+		<const name="BROWSER_SURVIVABILITY"		value="browser_survivability"/>
+		<const name="BROWSER_ARMOR"				value="browser_armor"/>
+		<const name="BROWSER_VULNERABILITY"		value="browser_vulnerability"/>
+		<const name="BROWSER_COMPOSITION"		value="browser_composition"/>
+		<const name="BROWSER_SHIP_INFO"			value="browser_ship_info"/>
+
+		<const name="TRAINING_ROOM"				value="training_room"				/>
+		<const name="TRAINING_ROOM_MAIN"		value="training_room_main"			/>
+		<const name="TRAINING_ROOM_SETTINGS"	value="training_room_settings"		/>
+
+		<const name="BATTLE_TYPE_CHOOSER_SHOW"	value="battle_type_chooser_show"	/>
+		<const name="BATTLE_TYPE_CHOOSER_HIDE"	value="battle_type_chooser_hide"	/>
+
+		<const name="STRATEGIC_ACTIONS"			value="strategic_actions"			/>
+
+		<const name="ARMORY"					value="armory"/>
+		<const name="ARMORY_HIDE"				value="armory_hide"/>
+
+		<const name="CLAN_BROWSER"				value="clan_browser"/>
+		<const name="SHIPYARD_BROWSER"			value="shipyard_browser"/>
+
+		<const name="OVERLAY_BROWSER"			value="overlay_browser"/>
+		<const name="OVERLAY_BROWSER_HIDE"		value="overlay_browser_hide"/>
+
+		<const name="EVENTS_PORT"				value="events_port"/>
+
+		<!-- ================== Ranges ================== -->
+		<range name="BROWSER_IN_DOCK"			values="ARMORY, SHIPYARD_BROWSER, CLAN_BROWSER, OVERLAY_BROWSER"/>
+		<range name="SPECIFIC_SSE"				values="SSE_BATTLEPASS, SSE_SHIP_ACES, SSE_OPEN_ENDED, SSE_NEWBIE_QUESTS, SSE_CAMPAIGNS"/>
+		<range name="NOT_AVAILABLE_FROM_WEB"	values="MONITOR, GRAPHICS, SOUND, CONTROLS, BATTLE, CAMERA, MOUSE, OTHER, CONTROLS_SHIPS, CONTROLS_AVIATION, CONTROLS_CHAT, CONTROLS_SPECTATOR,
+														ARMORY, ARMORY_HIDE, OVERLAY_BROWSER, OVERLAY_BROWSER_HIDE, CLAN_BROWSER, SHIPYARD_BROWSER,
+														TRAINING_ROOM, TRAINING_ROOM_MAIN, TRAINING_ROOM_SETTINGS,
+														BATTLE_TYPE_CHOOSER_HIDE, PROFILE_HIDE, SHIP_INFO"/>
+		<range name="OPTIONS_PAGES"				values="MONITOR, GRAPHICS, SOUND, BATTLE, CAMERA, MOUSE, CONTROLS, OTHER"/>
+		<range name="OPTIONS_CONTROLS"			values="CONTROLS_SHIPS, CONTROLS_AVIATION, CONTROLS_CHAT, CONTROLS_SPECTATOR"/>
+		<range name="RANKS_LEAGUES"				values="RANKS_BRONZE, RANKS_SILVER, RANKS_GOLD" />
+
+		<range name="SHIP_TITLE_VISIBLE"		values="WAFFENTRAGER, EVENTS_PORT, RESEARCH, SHIP_MASTERY"/>
+		<range name="CREW_VISIBLE"				values="WAFFENTRAGER, EVENTS_PORT, OVERVIEW, RESEARCH, SHIP_MASTERY"/>
+		<range name="ECOBOOSTS_VISIBLE"			values="WAFFENTRAGER, EVENTS_PORT, OVERVIEW, SHIP_MASTERY"/>
+		<range name="SIGNALS_VISIBLE"			values="WAFFENTRAGER, EVENTS_PORT, OVERVIEW, SHIP_MASTERY"/>
+		<range name="MODERNIZATIONS_VISIBLE"	values="WAFFENTRAGER, EVENTS_PORT, OVERVIEW, SHIP_MASTERY"/>
+		<range name="TTX_VISIBLE"				values="OVERVIEW, UPGRADES, CREW_MANAGEMENT, RESEARCH, SHIP_INFO, ARMOR"/>
+		<range name="SHIP_MANAGEMENT_VISIBLE"	values="RESEARCH, SHIP_INFO, OVERVIEW, UPGRADES, SURVIVABILITY"/>
+		<range name="ARMOR_VISIBLE"				values="ARMOR, BROWSER_ARMOR"/>
+		<range name="VULNERABILITY_VISIBLE"		values="VULNERABILITY, BROWSER_VULNERABILITY"/>
+		<range name="SHIP_SHARDS_VISIBLE"		values="REPAIR_DOCK"/>
+		<range name="MAINTENANCE_VISIBLE"		values="WAFFENTRAGER, EVENTS_PORT, SHIP, RESEARCH"/>
+		<range name="EVENT_BUFF_VISIBLE"		values="WAFFENTRAGER, EVENTS_PORT, OVERVIEW, UPGRADES, CREW_MANAGEMENT, RESEARCH"/>
+		<range name="EXCURSION_VISIBLE"			values="OVERVIEW, BROWSER_OVERVIEW, SHIP_INFO, BROWSER_SHIP_INFO"/>
+
+		<range name="CAROUSEL_VISIBLE"			values="WAFFENTRAGER, EVENTS_PORT, SHIP_MASTERY, SHIP, TRAINING_ROOM_MAIN, SHIP_INFO, SURVIVABILITY"/>
+		<range name="FULLSCREEN"				values="RESEARCH, ECOBOOSTS, SSE, CREW_MANAGEMENT, RANKS, RATING, META_EVENT"/>
+		<range name="FOGHORN_AVAILABLE"			values="EVENTS_PORT, SHIP_MASTERY, SHIP_INFO, OVERVIEW, BROWSER_OVERVIEW, BROWSER_SHIP_INFO, BROWSER_SURVIVABILITY, BROWSER_COMPOSITION, BROWSER_UPGRADES, CAMOUFLAGE, ENSIGN, UPGRADES, SURVIVABILITY"/>
+		<!-- hide header only in these routes  -->
+		<range name="DOCK_HEADER_HIDDEN"		values="LOOTBOXES"/>
+		<range name="CHOOSE_PORT_HIDDEN"		values="SURVIVABILITY"/>
+
+		<name_to_value/>
+	</enum>
+
+	<enum name="ROUTE_STATUS" type="Integer">
+		<const name="ENABLED" value="0" />
+		<const name="DISABLED" value="1" />
+		<const name="UNAVAILABLE" value="2" />
+	</enum>
+
+	<!-- Этот enum должен быть обязательно синхронизирован с gui_urls.xml -->
+	<enum name="GUI_URL" type="String">
+		<const name="PERSONAL_ACCOUNT" value="personal"/>
+		<const name="EULA" value="eula"/>
+		<const name="SUPPORT" value="support"/>
+		<const name="BUY_GOLD" value="buyGold"/>
+		<const name="CLANS_IN_GAME" value="clansInGame"/>
+		<const name="CLAN_WARS_IN_GAME" value="clanWarsInGame"/>
+		<const name="EXTRA_LICENCES" value="extraLicences"/>
+		<const name="GUIDES_IN_GAME" value="guidesInGame"/>
+		<const name="WAREHOUSE_IN_GAME" value="warehouseInGame"/>
+		<const name="METASHOP" value="metaShop"/>
+		<const name="BUY_GOLD_IN_GAME" value="buyGoldInGame"/>
+		<const name="NEWS_IN_GAME" value="newsInGame"/>
+		<const name="NEWS_ALL_IN_GAME" value="newsAllInGame"/>
+		<const name="NEWS_VERSION_IN_GAME" value="newsVersionInGame"/>
+		<const name="BUY_TOTAL_PREMIUM_IN_GAME" value="buyTotalPremiumInGame"/>
+		<const name="PLAYTOGETHER_IN_GAME" value="playTogetherInGame"/>
+		<const name="BUY_GOLD_AND_PREMIUM_IN_GAME" value="buyGoldAndPremiumInGame"/>
+		<const name="METASHOP_RVR" value="metaShopRvr"/>
+		<const name="SHIPYARD_IN_GAME" value="shipyardInGame"/>
+		<const name="SHIPYARD_SERVICE_URL" value="shipyardServiceURL"/>
+		<const name="PLAYER_STATS" value="playerStats"/>
+		<const name="LOOTBOX_CONTENTS" value="lootboxContents"/>
+		<const name="BATTLEPASS_SHOP_IN_GAME" value="battlePassShopInGame"/>
+		<const name="METASHOP_COLLECTIONS" value="metaShopCollections"/>
+		<const name="REFERRAL" value="playTogetherInGame"/>
+		<const name="WAFFENTRAGER_LANDING_IN_GAME" value="waffentragerLandingInGame"/>
+		<const name="WAFFENTRAGER_PORTAL_COMPANY" value="waffentragerPortalCompany"/>
+		<const name="WAFFENTRAGER_METASHOP" value="waffentragerMetaShop"/>
+		<const name="META_EVENT_LANDING_IN_GAME" value="metaEventLandingInGame"/>
+
+		<range name="CLANS_PROJECTS"		values="CLANS_IN_GAME, CLAN_WARS_IN_GAME"/>
+	</enum>
+
+	<enum name="WINDOW_STATE" type="Integer">
+		<const name="INIT"/>
+		<const name="SHOW"/>
+		<const name="HIDE"/>
+	</enum>
+
+	<enum name="DEFAULT_HIDE_TIME_BG" type="Number">
+		<const name="DELAY"		value="0.2"/>
+		<const name="DURATION"	value="0.2"/>
+		<const name="FADE_DURATION"	value="0.15"/>
+	</enum>
+
+</constants>

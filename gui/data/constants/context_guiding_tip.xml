@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<constants>
+	<enum name="TIP_CHAIN_ID" type="Integer">
+		<const name="NONE"					value="0" />
+
+		<const name="NQ_INTRO" 				value="1" />
+		<const name="RESEARCH" 				value="2" />
+		<const name="PVP" 					value="3" />
+		<const name="EXTERIOR" 				value="4" />
+		<const name="BATTLE_BONUSES"		value="5" />
+		<const name="FREE_XP" 				value="6" />
+		<const name="ECO_BONUSES"			value="7" />
+		<const name="SSE"	 				value="8" />
+		<const name="LOOTBOXES"				value="9" />
+		<const name="CREW"					value="10" />
+		<const name="MODERNIZATION"			value="11" />
+		<const name="CAMPAIGN"				value="12" />
+		<const name="METASHOP" 				value="13" />
+		<const name="PVE"					value="14" />
+		<const name="WEB_STORAGE"			value="15" />
+		<const name="COMPETITIVE"			value="16" />
+		<const name="CLANS"					value="17" />
+
+		<enum name="TO_NEWBIE_QUEST_INDEX" type="String">
+			<const name="RESEARCH"			value="PCON001" />
+			<const name="PVP"				value="PCON002" />
+			<const name="EXTERIOR"			value="PCON003" />
+			<const name="BATTLE_BONUSES"	value="PCON004" />
+			<const name="FREE_XP"			value="PCON005" />
+			<const name="ECO_BONUSES"		value="PCON006" />
+			<const name="LOOTBOXES"			value="PCON007" />
+			<const name="CREW"				value="PCON008" />
+			<const name="SSE"				value="PCON009" />
+			<const name="SSE_ONBOARDING"	value="PCON009" />
+			<const name="MODERNIZATION"		value="PCON010" />
+			<const name="CAMPAIGN"			value="PCON011" />
+			<const name="METASHOP"			value="PCON012" />
+			<const name="PVE"				value="PCON013" />
+			<const name="WEB_STORAGE"		value="PCON014" />
+			<const name="COMPETITIVE"		value="PCON015" />
+			<const name="CLANS"				value="PCON016" />
+			<const name="DECALS"			value="PCON036" />
+		</enum>
+
+		<const name="RESEARCH_REPEAT" 		value="18" />
+		<const name="PVP_REPEAT" 			value="19" />
+		<const name="EXTERIOR_REPEAT" 		value="20" />
+		<const name="BATTLE_BONUSES_REPEAT" value="21" />
+		<const name="FREE_XP_REPEAT" 		value="22" />
+		<const name="ECO_BONUSES_REPEAT"	value="23" />
+		<const name="LOOTBOXES_REPEAT"		value="24" />
+		<const name="CREW_REPEAT"	 		value="25" />
+		<const name="SSE_REPEAT"	 		value="26" />
+		<const name="MODERNIZATION_REPEAT"	value="27" />
+		<const name="CAMPAIGN_REPEAT"		value="28" />
+		<const name="METASHOP_REPEAT" 		value="29" />
+		<const name="PVE_REPEAT"			value="30" />
+		<const name="WEB_STORAGE_REPEAT"	value="31" />
+		<const name="COMPETITIVE_REPEAT"	value="32" />
+		<const name="CLANS_REPEAT"			value="33" />
+
+		<const name="SHIP_ACES" 						value="34" />
+		<const name="SUPERSHIPS"						value="36" />
+		<const name="INVITE_FRIEND" 					value="37" />
+		<const name="RVR_AVAILABLE"						value="40" />
+		<const name="RVR_NEW_STAGE" 					value="41" />
+		<const name="PARAGONS"		 					value="43" />
+		<const name="SHIPYARD"		 					value="44" />
+		<const name="PREMSHOP_SPECIAL" 					value="45" />
+		<const name="METASHOP_SPECIAL" 					value="46" />
+		<const name="SNOWFLAKES_EVENT_START" 			value="47" />
+		<const name="SNOWFLAKES_EVENT_FINISH" 			value="48" />
+
+		<!-- TODO: Цепочка о баннере "Новости" была упразднена, но ее айдишник сохранен,
+		потому что просмотр цепочек фиксируется в clientSettings при помощи TIP_CHAIN_ID.COMMON_CHAINS.index -->
+		<const name="INGAME_NEWS" 						value="49" />
+
+		<const name="BATTLEPASS_EVENT" 					value="50" />
+		<const name="BATTLEPASS_SEASON_FINISH_FREE" 	value="51" />
+		<const name="BATTLEPASS_SEASON_FINISH_PAID" 	value="52" />
+		<const name="STRATEGIC_ACTIONS_EVENT"				value="55" />
+		<const name="STRATEGIC_ACTIONS_TASK_CHANGED"		value="56" />
+		<const name="STRATEGIC_ACTIONS_TERRITORY_COMPLETED"	value="57" />
+		<const name="PORT_BUFF_FOR_HALLOWEEN"				value="58" />
+		<const name="STRATEGIC_ACTIONS_ONBOARDING"			value="59" />
+		<const name="SHIP_SHARDS_ONBOARDING_WITH_SHIP_COMPONENT"	value="60" />
+		<const name="SHIP_SHARDS_SHIP_CRAFTING"						value="61" />
+		<const name="SHIP_SHARDS_ONBOARDING_WITH_SHIP_MATERIAL"		value="62" />
+		<const name="SHIP_FEATURES"									value="63" />
+		<const name="SHIP_CLASSES_ONBOARDING"						value="64" />
+		<const name="FIRST_BATTLE"									value="65" />
+		<const name="SSE_MOTIVATOR_INTRO"							value="66" />
+		<const name="SSE_MOTIVATOR_TASK_CHANGED"					value="67" />
+		<const name="SSE_MOTIVATOR_COMPLETED"						value="68" />
+		<const name="SHIP_MASTERY_INTRO"							value="69" />
+		<const name="TUTORIAL_START"								value="70" />
+		<const name="TUTORIAL_MIGRATION"							value="71" />
+		<const name="SHIP_SHARDS_MATERIALS_EXCHANGE"				value="73" />
+		<const name="CAMPAIGNS_MOVED_TO_SSE"						value="74" />
+		<const name="TRIALS_ONBOARDING"								value="75" />
+		<const name="DIVISIONS_ONBOARDING"							value="76" />
+		<const name="SSE_ONBOARDING"								value="77" />
+		<const name="PORT_BUFF_FOR_EVENT"							value="78" />
+		<const name="SHIP_ROLES_OLD_PLAYER"							value="79" />
+		<const name="STRATEGIC_ACTIONS_ONBOARDING_REPEAT"			value="80" />
+		<const name="SSE_MOTIVATOR_PIN_TASK_INTRO"					value="81" />
+		<const name="DECALS"										value="82" />
+		<const name="DECALS_REPEAT"									value="83" />
+
+		<enum name="TO_REQUIRED_BATTLES_COUNT" type="Integer">
+			<const name="TRIALS_ONBOARDING"				value="6" />
+			<const name="BATTLEPASS_SEASON_FINISH_FREE"	value="11" />
+			<const name="BATTLEPASS_SEASON_FINISH_PAID"	value="11" />
+			<const name="DIVISIONS_ONBOARDING"			value="15" />
+			<const name="SHIPYARD"						value="19" />
+		</enum>
+
+		<value_to_name/>
+
+		<!-- Используется для упаковки данных о просмотренных цепочках в pdata, менять порядок без написания VU запрещено -->
+		<range name="COMMON_CHAINS" values="SHIP_ACES, SUPERSHIPS, INVITE_FRIEND,
+		RVR_AVAILABLE, RVR_NEW_STAGE,
+		PARAGONS, SHIPYARD, PREMSHOP_SPECIAL, METASHOP_SPECIAL, SNOWFLAKES_EVENT_START,
+		SNOWFLAKES_EVENT_FINISH, INGAME_NEWS, BATTLEPASS_EVENT, BATTLEPASS_SEASON_FINISH_FREE,
+		BATTLEPASS_SEASON_FINISH_PAID, FIRST_BATTLE,
+		STRATEGIC_ACTIONS_EVENT, STRATEGIC_ACTIONS_TASK_CHANGED, STRATEGIC_ACTIONS_TERRITORY_COMPLETED,
+		PORT_BUFF_FOR_HALLOWEEN, STRATEGIC_ACTIONS_ONBOARDING, SHIP_SHARDS_ONBOARDING_WITH_SHIP_COMPONENT,
+		SHIP_SHARDS_SHIP_CRAFTING, SHIP_SHARDS_ONBOARDING_WITH_SHIP_MATERIAL, SHIP_FEATURES, SHIP_CLASSES_ONBOARDING,
+		SSE_MOTIVATOR_INTRO, SSE_MOTIVATOR_TASK_CHANGED, SSE_MOTIVATOR_COMPLETED, SHIP_MASTERY_INTRO, CAMPAIGNS_MOVED_TO_SSE,
+		TUTORIAL_START, TUTORIAL_MIGRATION, SHIP_SHARDS_MATERIALS_EXCHANGE,
+		TRIALS_ONBOARDING, DIVISIONS_ONBOARDING, SSE_ONBOARDING, PORT_BUFF_FOR_EVENT, SHIP_ROLES_OLD_PLAYER,
+		STRATEGIC_ACTIONS_ONBOARDING_REPEAT, SSE_MOTIVATOR_PIN_TASK_INTRO"/>
+	</enum>
+
+	<enum name="TIP_TYPE" type="Integer">
+		<const name="NONE"							value="0" />
+
+		<const name="NEWBIE_QUESTS_INTRO"			value="1" />
+		<const name="NEWBIE_QUESTS_FINAL"			value="2" />
+
+		<const name="RESEARCH_INTRO"				value="3" />
+		<const name="RESEARCH_SHIP" 				value="4" />
+		<const name="RESEARCH_CREDITS" 				value="5" />
+		<const name="RESEARCH_EXP"  				value="6" />
+		<const name="RESEARCH_FREEEXP"  			value="7" />
+		<const name="RESEARCH_FINAL" 				value="8" />
+		<const name="RESEARCH_FINAL_BUY_RESEARCH" 	value="9" />
+
+		<const name="PVP_INTRO"  					value="10" />
+		<const name="PVP_FINAL" 					value="11" />
+
+		<const name="EXTERIOR_INTRO"  				value="14" />
+		<const name="EXTERIOR_DESC_1"  				value="15" />
+		<const name="EXTERIOR_DESC_2" 				value="16" />
+		<const name="EXTERIOR_DESC_3"  				value="17" />
+		<const name="EXTERIOR_FINAL" 				value="18" />
+		<const name="EXTERIOR_TAB_LOCKED"			value="19" />
+
+		<const name="BATTLE_BONUS_INTRO"			value="20" />
+		<const name="BATTLE_BONUS_SIGNALS"			value="21" />
+
+		<const name="FREE_XP_SHIP_MAIN_TAB"			value="22" />
+		<const name="FREE_XP_MODULE_UPGRADES_TAB"	value="23" />
+		<const name="FREE_XP_EXPLANATION"			value="24" />
+		<const name="FREE_XP_MODULE"				value="25" />
+		<const name="FREE_XP_SHIP"					value="26" />
+		<const name="FREE_XP_FINAL"					value="27" />
+
+		<const name="ECO_BONUS_SHIP_MAIN_TAB"		value="28" />
+		<const name="ECO_BONUS_ECOBOOSTS_TAB"		value="29" />
+		<const name="ECO_BONUS_FINAL"				value="30" />
+
+		<const name="LOOTBOXES_ACTIVITIES_TAB"		value="31" />
+		<const name="LOOTBOXES_SELF_TAB"			value="32" />
+		<const name="LOOTBOXES_CAROUSEL"			value="33" />
+		<const name="LOOTBOXES_OPEN"				value="34" />
+
+		<const name="CREW_HAS_CREW"					value="36" />
+		<const name="CREW_NO_CREW"					value="37" />
+		<const name="CREW_SKILL_POINT"				value="38" />
+		<const name="CREW_SELECT_SKILL"				value="39" />
+		<const name="CREW_LEARN_SKILL"				value="40" />
+
+		<const name="SSE_INTRO"						value="41" />
+		<const name="SSE_BATTLE"					value="42" />
+		<const name="SSE_FINAL"						value="43" />
+
+		<const name="MODERNIZATION_INTRO"			value="45" />
+		<const name="MODERNIZATION_AVAILABLE"		value="46" />
+
+		<const name="CAMPAIGN_INTRO"				value="47" />
+		<const name="CAMPAIGN_SELECT"				value="48" />
+		<const name="CAMPAIGN_MISSION"				value="49" />
+		<const name="CAMPAIGN_TASK"					value="50" />
+		<const name="CAMPAIGN_FINAL"				value="51" />
+
+		<const name="METASHOP_INTRO"				value="52" />
+
+		<const name="PVE_INTRO"						value="53" />
+		<const name="PVE_CHOOSE"					value="54" />
+		<const name="PVE_FINAL"						value="55" />
+
+		<const name="WEB_STORAGE_INTRO"				value="56" />
+		<const name="WEB_STORAGE_FINAL"				value="57" />
+
+		<const name="COMPETITIVE_INTRO"				value="58" />
+		<const name="COMPETITIVE_FINAL"				value="59" />
+	
+		<const name="CLANS_INTRO"					value="60" />
+		
+		<const name="EXTERIOR_CANT_INSTALL_CAMO"	value="61" />
+		
+		<const name="RESEARCH_INTRO_REPEAT"			value="70" />
+		<const name="RESEARCH_SHIP_REPEAT" 			value="71" />
+		<const name="RESEARCH_CREDITS_REPEAT" 		value="72" />
+		<const name="RESEARCH_EXP_REPEAT"  			value="73" />
+		<const name="RESEARCH_FREEEXP_REPEAT"  		value="74" />
+		<const name="RESEARCH_FINAL_REPEAT" 		value="75" />
+
+		<const name="PVP_INTRO_REPEAT"  			value="76" />
+		<const name="PVP_FINAL_REPEAT" 				value="77" />
+
+		<const name="EXTERIOR_INTRO_REPEAT"  		value="80" />
+		<const name="EXTERIOR_DESC_1_REPEAT"  		value="81" />
+		<const name="EXTERIOR_DESC_2_REPEAT" 		value="82" />
+		<const name="EXTERIOR_FINAL_REPEAT" 		value="83" />
+
+		<const name="BATTLE_BONUS_INTRO_REPEAT"		value="85" />
+
+		<const name="FREE_XP_SHIP_MAIN_TAB_REPEAT"			value="87" />
+		<const name="FREE_XP_MODULE_UPGRADES_TAB_REPEAT"	value="88" />
+		<const name="FREE_XP_EXPLANATION_REPEAT"			value="89" />
+		<const name="FREE_XP_MODULE_REPEAT"					value="90" />
+		<const name="FREE_XP_SHIP_FINAL_REPEAT"				value="91" />
+
+		<const name="ECO_BONUS_SHIP_MAIN_TAB_REPEAT"		value="93" />
+		<const name="ECO_BONUS_ECOBOOSTS_TAB_REPEAT"		value="94" />
+		<const name="ECO_BONUS_FINAL_REPEAT"				value="95" />
+
+		<const name="LOOTBOXES_ACTIVITIES_TAB_REPEAT"		value="96" />
+		<const name="LOOTBOXES_SELF_TAB_REPEAT"				value="97" />
+		<const name="LOOTBOXES_CAROUSEL_REPEAT"				value="98" />
+		<const name="LOOTBOXES_OPEN_REPEAT"					value="99" />
+
+		<const name="CREW_HAS_CREW_REPEAT"			value="101" />
+		<const name="CREW_NO_CREW_REPEAT"			value="102" />
+		<const name="CREW_SKILL_POINT_REPEAT"		value="103" />
+		<const name="CREW_SELECT_SKILL_REPEAT"		value="104" />
+		<const name="CREW_LEARN_SKILL_REPEAT"		value="105" />
+
+		<const name="SSE_INTRO_REPEAT"				value="106" />
+		<const name="SSE_BATTLE_REPEAT"				value="107" />
+		<const name="SSE_FINAL_REPEAT"				value="108" />
+
+		<const name="MODERNIZATION_INTRO_REPEAT"		value="110" />
+		<const name="MODERNIZATION_AVAILABLE_REPEAT"	value="111" />
+
+		<const name="CAMPAIGN_INTRO_REPEAT"			value="112" />
+		<const name="CAMPAIGN_SELECT_REPEAT"		value="113" />
+		<const name="CAMPAIGN_MISSION_REPEAT"		value="114" />
+		<const name="CAMPAIGN_TASK_REPEAT"			value="115" />
+		<const name="CAMPAIGN_FINAL_REPEAT"			value="116" />
+
+		<const name="METASHOP_INTRO_REPEAT"			value="117" />
+
+		<const name="PVE_INTRO_REPEAT"				value="118" />
+		<const name="PVE_CHOOSE_REPEAT"				value="119" />
+		<const name="PVE_FINAL_REPEAT"				value="120" />
+
+		<const name="WEB_STORAGE_INTRO_REPEAT"		value="121" />
+		<const name="WEB_STORAGE_FINAL_REPEAT"		value="122" />
+
+		<const name="COMPETITIVE_INTRO_REPEAT"		value="123" />
+		<const name="COMPETITIVE_FINAL_REPEAT"		value="124" />
+
+		<const name="CLANS_INTRO_REPEAT"			value="125" />
+
+		<const name="BATTLE_BONUS_BLOCKED_CANT_INSTALL"	value="136" />
+		<const name="BATTLE_BONUS_BLOCKED_MAINTENANCE"	value="137" />
+
+		<const name="ECO_BONUS_BLOCKED_MAINTENANCE"		value="140" />
+
+		<const name="MODERNIZATION_BLOCKED_MAINTENANCE"	value="146" />
+
+		<const name="PARAGONS_INTRO"				value="250" />
+		<const name="SHIPYARD_INTRO"				value="251" />
+		
+		<const name="SUPERSHIPS"					value="252" />
+		
+		<const name="SNOWFLAKES_EVENT_START"		value="253" />
+		<const name="SNOWFLAKES_EVENT_FINISH"		value="254" />
+		
+		<const name="INVITE_DOCK_USER_MENU"			value="255" />
+		<const name="INVITE_USER_MENU_INVITE_BTN"	value="256" />
+		
+		<const name="RVR_AVAILABLE"					value="258" />
+		<const name="RVR_NEW_STAGE"					value="259" />
+
+		<const name="SHIP_ACES"						value="260" />
+
+		<const name="METASHOP"						value="263" />
+
+		<const name="BATTLEPASS_EVENT_START"		value="267" />
+
+		<const name="BATTLEPASS_SEASON_FINISH_FREE"	value="268" />
+
+		<const name="BATTLEPASS_SEASON_FINISH_PAID"	value="269" />
+		
+		<const name="STRATEGIC_ACTIONS_EVENT"				value="272" />
+		<const name="STRATEGIC_ACTIONS_TASK_CHANGED"		value="273" />
+		<const name="STRATEGIC_ACTIONS_TERRITORY_COMPLETED"	value="274" />
+		
+		<const name="PORT_BUFF_FOR_HALLOWEEN" 				value="275" />
+
+		<const name="STRATEGIC_ACTIONS_SELECTED_TERRITORY"	value="276" />
+		<const name="STRATEGIC_ACTIONS_TERRITORY_TASKS"		value="277" />
+		<const name="STRATEGIC_ACTIONS_TERRITORY_PROGRESS"	value="278" />
+		<const name="STRATEGIC_ACTIONS_TERRITORY_REWARDS"	value="279" />
+		<const name="RESEARCH_FINAL_IN_BATTLE"				value="280" />
+		<const name="BATTLE_BONUS_SIGNALS_FINAL"			value="282" />
+		<const name="BATTLE_BONUS_SIGNALS_FINAL_REPEAT"		value="283" />
+		<const name="CREW_SKILL_POINTS_INSUFF"				value="286" />
+		<const name="CREW_SKILL_POINTS_INSUFF_REPEAT"		value="287" />
+		<const name="CREW_HIRE"								value="288" />
+		<const name="CREW_HIRE_REPEAT"						value="289" />
+		<const name="CREW_HIRE_NEW"							value="290" />
+		<const name="CREW_HIRE_NEW_REPEAT"					value="291" />
+		<const name="MODERNIZATION_NOT_AVAILABLE"			value="292" />
+
+		<const name="SHIP_SHARDS_INTRO_WITH_SHIP_COMPONENT"	value="294" />
+		<const name="SHIP_SHARDS_BROKEN_SHIP"				value="295" />
+		<const name="SHIP_SHARDS_NOT_ENOUGH_SHIP_COMPONENTS_TTX"	value="296" />
+		<const name="SHIP_SHARDS_REPAIR_MATERIALS"			value="297" />
+		<const name="SHIP_SHARDS_FIRST_REPAIR_INTRO"		value="298" />
+		<const name="SHIP_SHARDS_READY_SHIP"				value="299" />
+		<const name="SHIP_SHARDS_SHIP_REPAIR_TTX"			value="300" />
+		<const name="SHIP_SHARDS_INTRO_WITH_SHIP_MATERIAL"		value="301" />
+		<const name="SHIP_SHARDS_FINAL_WITH_SHIP_MATERIAL"		value="302" />
+		<const name="SHIP_SHARDS_ENOUGH_SHIP_COMPONENTS_TTX"	value="303" />
+
+		<const name="SHIP_FEATURES_RESEARCH_DOCK"				value="306" />
+		<const name="SHIP_FEATURES_RESEARCH_ICON"				value="307" />
+		<const name="SHIP_FEATURES_SHIPS_COMPLEXITY"			value="308" />
+		<const name="SHIP_FEATURES_SHIP_TAB"					value="309" />
+
+		<const name="SHIP_CLASSES_RESEARCH_TAB"					value="311" />
+		<const name="SHIP_CLASSES_DESTROYER"					value="312" />
+
+		<const name="FIRST_BATTLE"								value="313" />
+
+		<const name="SSE_MOTIVATOR_INTRO"						value="314" />
+		<const name="SSE_MOTIVATOR_TASK_CHANGED"				value="315" />
+		<const name="SSE_MOTIVATOR_DAILY_TASK_COMPLETED"		value="316" />
+		<const name="SSE_MOTIVATOR_WEEKLY_TASK_COMPLETED"		value="317" />
+		<const name="SHIP_ACES_NATION"							value="318" />
+		<const name="SHIP_ACES_SHIP_TYPE"						value="319" />
+		<const name="SHIP_MASTERY_INTRO"						value="320" />
+		<const name="PARAGONS_RULES"							value="321" />
+		<const name="PARAGONS_DROP_NATION"						value="322" />
+
+		<const name="CAMPAIGN_MAIN_TAB"							value="323" />
+		<const name="CAMPAIGN_SECONDARY_TAB"					value="324" />
+
+		<const name="TUTORIAL_START"							value="326" />
+
+		<const name="TUTORIAL_MIGRATION_SETTINGS_BUTTON"		value="327" />
+		<const name="TUTORIAL_MIGRATION_LOBBY_MENU"				value="328" />
+
+		<const name="STRATEGIC_ACTIONS_ARCHIVE"					value="332" />
+
+		<const name="SHIP_SHARDS_MATERIALS_EXCHANGE_INTRO"		value="333" />
+		<const name="SHIP_SHARDS_MATERIALS_EXCHANGE_BUTTON"		value="334" />
+		<const name="TRIALS_ONBOARDING_INTRO"					value="335" />
+		<const name="TRIALS_ONBOARDING_CHOOSE_BATTLE_TYPE"		value="336" />
+		<const name="TRIALS_ONBOARDING_CHOOSE_TASK"				value="337" />
+		<const name="TRIALS_ONBOARDING_FINAL"					value="338" />
+
+		<const name="DIVISIONS_ONBOARDING_INTRO"				value="339" />
+		<const name="DIVISIONS_ONBOARDING_SEEKING"				value="340" />
+		<const name="DIVISIONS_ONBOARDING_ALREADY_SEEKING"		value="341" />
+
+		<const name="BATTLE_BONUS_UPGRADES_TAB"					value="342" />
+		<const name="BATTLE_BONUS_UPGRADES_TAB_REPEAT"			value="343" />
+
+		<const name="CREW_SECONDARY_TAB"						value="344" />
+
+		<const name="MODERNIZATIONS_SECONDARY_TAB"				value="345" />
+		<const name="NEW_ACTIVITY_AVAILABLE"					value="346" />
+
+		<const name="PORT_BUFF_FOR_EVENT_GO_TO_SHIP_TAB"		value="347" />
+		<const name="PORT_BUFF_FOR_EVENT_GO_TO_OVERVIEW_TAB"	value="348" />
+		<const name="PORT_BUFF_FOR_EVENT_TTX_MODIFIERS_NEXT"	value="349" />
+		<const name="PORT_BUFF_FOR_EVENT_TTX_MODIFIERS_FINAL"	value="350" />
+		<const name="PORT_BUFF_FOR_EVENT_EQUIPMENT_FINAL"		value="351" />
+
+		<const name="NEW_EVENT_AVAILABLE"						value="352" />
+
+		<const name="SHIP_FEATURES_SHIPS_ROLES"					value="353" />
+		<const name="TUTORIAL_TTX_SHIPS_ROLES"					value="354" />
+		<const name="TUTORIAL_FEATURES_SHIPS_ROLES"				value="355" />
+
+		<const name="STRATEGIC_ACTIONS_SELECTED_TERRITORY_REPEAT"	value="356" />
+		<const name="STRATEGIC_ACTIONS_TERRITORY_TASKS_REPEAT"		value="357" />
+		<const name="STRATEGIC_ACTIONS_TERRITORY_PROGRESS_REPEAT"	value="358" />
+		<const name="STRATEGIC_ACTIONS_TERRITORY_REWARDS_REPEAT"	value="359" />
+
+		<const name="SSE_MOTIVATOR_PIN_INTRO"					value="360" />
+		<const name="SSE_MOTIVATOR_PIN_TASK"					value="361" />
+		<const name="SSE_MOTIVATOR_UNPIN_TASK"					value="362" />
+
+
+		<const name="DECALS_INTRO"						value="363" />
+		<const name="DECALS_SHIPTAB"					value="364" />
+		<const name="DECALS_FINAL"						value="365" />
+		<const name="DECALS_TAB_LOCKED"					value="366" />
+		<const name="DECALS_CANT_INSTALL_ON_SHIP"		value="367" />
+		<const name="DECALS_CANT_INSTALL_ON_CAMO"		value="368" />
+		<const name="DECALS_FINAL_REPEAT"				value="369" />
+	</enum>
+</constants>

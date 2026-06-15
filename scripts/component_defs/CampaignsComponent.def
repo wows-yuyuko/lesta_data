@@ -1,0 +1,57 @@
+<root>
+	<BaseMethods>
+		<activateTask>
+			<Args>
+				<taskID> STRING </taskID>
+			</Args>
+			<Exposed/>
+		</activateTask>
+
+		<deactivateTask>
+			<Args>
+				<taskID> STRING </taskID>
+			</Args>
+			<ReturnValues>
+				<newState> INT8 </newState>
+			</ReturnValues>
+			<Exposed/>
+		</deactivateTask>
+
+		<viewCampaign>
+			<Args>
+				<campaignID> STRING </campaignID>
+			</Args>
+			<Exposed/>
+		</viewCampaign>
+
+		<takeReward>
+			<Args>
+				<taskID> STRING </taskID>
+			</Args>
+			<ReturnValues>
+				<rewards> MSGPACK_BLOB </rewards>
+			</ReturnValues>
+			<Exposed/>
+		</takeReward>
+
+		<unlockTask>
+			<Args>
+				<taskID> STRING </taskID>
+			</Args>
+			<Exposed/>
+		</unlockTask>
+	</BaseMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<ofEntity>
+		<Account/>
+	</ofEntity>
+
+	<ofBWComponent>
+		<base/>
+		<bot/>
+		<client/>
+	</ofBWComponent>
+</root>

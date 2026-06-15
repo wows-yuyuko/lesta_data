@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<constants>
+	<enum name="CREW_METHODS" type="String">
+		<const name="OPEN_CREW_INFO_WINDOW"								value="openModalWindowCrewInfo"/>
+		<const name="OPEN_CREW_RETRAIN_WINDOW"							value="openRetrainCrewWindow"/>
+		<const name="OPEN_FREE_SKILL_POINTS_WINDOW"						value="freeSkillPointsWindow"/>
+		<const name="OPEN_HIRE_WINDOW"									value="openHireCrewWindow"/>
+		<const name="OPEN_HIRE_EMPTY"									value="openHireEmptyCrew"/>
+		<const name="OPEN_LEARN_SKILLS_WINDOW"							value="learnSkills"/>
+		<const name="OPEN_UNLOCK_SKILL_WINDOW"							value="openUnlockSkillWindow"/>
+		<const name="OPEN_DENY_SKILL_WINDOW"							value="openDenySkillWindow"/>
+		<const name="OPEN_UNLOCK_TALENT_WINDOW"							value="openUnlockTalentWindow"/>
+		<const name="OPEN_DENY_TALENT_WINDOW"							value="openDenyTalentWindow"/>
+		<const name="OPEN_FIRE_CREW_WINDOW"								value="openFireCrewWindow"/>
+		<const name="OPEN_FAST_TRAINING_WINDOW"							value="crewFastTraining"/>
+		<const name="OPEN_PROMOTE_TO_RARE_WINDOW"						value="openPromoteCrewToRareWindow"/>
+		<const name="OPEN_PROMOTE_TO_ELITE_WINDOW"						value="openPromoteCrewToEliteWindow"/>
+		<const name="OPEN_WARNING_LAST_SKILL_WINDOW"					value="openWarningLastSkillWindow"/>
+		<const name="OPEN_UNLOCK_ADDITIONAL_SKILL_SET_WINDOW"			value="openUnlockAdditionalSkillSetWindow"/>
+		<const name="CLOSE_LEARN_SKILLS_WINDOW"							value="closeModalWindowLearnSkills"/>
+		<const name="CLOSE_SKILLS_INFO_WINDOW"							value="closeModalWindowCrewInfo"/>
+		<const name="LEARN_SELECTED_SKILLS"								value="learnSelectedSkills"/>
+		<const name="RESET_SELECTED_SKILLS"								value="resetSelectedSkills"/>
+		<const name="SELECT_SKILL"										value="selectSkill"/>
+		<const name="DISASSIGN"											value="disassignCrew"/>
+		<const name="HIRE"												value="hireCrew"/>
+		<const name="FIRE"												value="fireCrew"/>
+		<const name="ASSIGN_TO_SHIP"									value="assignCrewToShip"/>
+		<const name="UNLOCK_SKILL"										value="unlockSkill"/>
+		<const name="UNLOCK_TALENT"										value="unlockTalent"/>
+		<const name="DENY_SKILL"										value="denySkill"/>
+		<const name="DENY_TALENT"										value="denyTalent"/>
+		<const name="FREE_SKILL_POINTS"									value="freeSkillPoints"/>
+		<const name="TRAIN_FAST"										value="trainFast"/>
+		<const name="RETRAIN"											value="retrainCrew"/>
+		<const name="RETRAIN_AND_ASSIGN"								value="retrainAndAssignCrew"/>
+		<const name="LEARN_ELITE_CREW_BOOK"								value="learnEliteCrewBook"/>
+		<const name="LEARN_RARE_CREW_BOOK"								value="learnRareCrewBook"/>
+		<const name="SET_RARE_CREW_BOOK_SHIP_TYPE"						value="setRareCrewBookShipType"/>
+		<const name="SET_RARE_CREW_BOOK_DRAFT_SKILLS"					value="setRareCrewBookDraftSkills"/>
+		<const name="SET_RARE_CREW_BOOK_RANDOM_SKILL_SET"				value="setRareCrewBookRandomSkillSet"/>
+		<const name="SELECT_RARE_CREW_BOOK_SKILL_FOR_DRAFTING"			value="selectRareCrewBookSkillForDrafting"/>
+		<const name="UNLOCK_RARE_CREW_BOOK_ADDITIONAL_SKILL_SET"		value="unlockRareCrewBookAdditionalSkillSet"/>
+	</enum>
+
+	<enum name="EXTERIOR_DECALS" type="String">
+		<const name="INSTALL"					value="installExteriorDecal"/>
+		<const name="UNINSTALL"					value="uninstallExteriorDecal"/>
+		<const name="PREVIEW"					value="previewExteriorDecal"/>
+		<const name="DISABLE_PREVIEW"			value="disablePreviewExteriorDecal"/>
+		<const name="PURCHASE_AND_INSTALL"		value="purchaseAndInstallExteriorDecal"/>
+	</enum>
+</constants>

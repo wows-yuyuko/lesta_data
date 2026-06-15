@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<constants>
+
+<!--	Подленты нужно располагать в порядке возрастания их ID-->
+<!--	Если в ленте только одна подлента, эти лента и подлента должны называться одинаково-->
+<!--	Если в ленте несколько подлент, ни одна подлента не должна называться так же, как родительская лента-->
+	<enum name="SUBRIBBON_TYPE" type="Integer">
+		<const name="TORPEDO"							value="1" />
+		<const name="PLANE"								value="3" />
+		<const name="CRIT"								value="4" />
+		<const name="FRAG"								value="5" />
+		<const name="BURN"								value="6" />
+		<const name="FLOOD"								value="7" />
+		<const name="CITADEL"							value="8" />
+		<const name="BASE_DEFENSE"						value="9" />
+		<const name="BASE_CAPTURE"						value="10" />
+		<const name="BASE_CAPTURE_ASSIST"				value="11" />
+		<const name="SUPPRESSED"						value="12" />
+		<const name="SECONDARY_CALIBER"					value="13" />
+		<const name="MAIN_CALIBER_OVER_PENETRATION"		value="14" />
+		<const name="MAIN_CALIBER_PENETRATION"			value="15" />
+		<const name="MAIN_CALIBER_NO_PENETRATION"		value="16" />
+		<const name="MAIN_CALIBER_RICOCHET"				value="17" />
+		<const name="BUILDING_KILL"						value="18" />
+		<const name="DETECTED"							value="19" />
+		<const name="BOMB_OVER_PENETRATION"				value="20" />
+		<const name="BOMB_PENETRATION"					value="21" />
+		<const name="BOMB_NO_PENETRATION"				value="22" />
+		<const name="BOMB_RICOCHET"						value="23" />
+		<const name="ROCKET_PENETRATION"				value="25" />
+		<const name="ROCKET_NO_PENETRATION"				value="26" />
+		<const name="SPLANE"							value="27" />
+		<const name="BULGE"								value="28" />
+		<const name="BOMB_BULGE"						value="29" />
+		<const name="ROCKET_BULGE"						value="30" />
+		<const name="DROP"								value="33" />
+		<const name="ROCKET_RICOCHET"					value="34" />
+		<const name="ROCKET_OVER_PENETRATION"			value="35" />
+		<const name="WAVE_KILL_TORPEDO"					value="36" />
+		<const name="WAVE_CUT_WAVE"						value="37" />
+		<const name="WAVE_HIT_VEHICLE"					value="38" />
+		<const name="ACOUSTIC_HIT_NEW"					value="39" />
+		<const name="ACOUSTIC_HIT_BLOCK"				value="41" />
+		<const name="ACID"								value="42" />
+		<const name="DBOMB_FULL_DAMAGE"					value="43" />
+		<const name="DBOMB_PARTIAL_DAMAGE"				value="44" />
+		<const name="MINE"								value="45" />
+		<const name="MINE_DESTROY"						value="46" />
+		<const name="EFFECTIVE_SMOKES"					value="47" />
+		<const name="AIRSHIP_SLOW" 						value="50"/>
+		<const name="AIRSHIP_SLOW_ASSIST"				value="51"/>
+		<const name="AIRSHIP_BOOST"						value="52"/>
+		<const name="AIRSHIP_BOOST_ASSIST"				value="53"/>
+		<const name="DAMAGED_SEGMENT"					value="54"/>
+		<const name="DESTROYED_SEGMENT"					value="55"/>
+		<const name="TANKING"							value="56"/>
+		<const name="TORPEDO_DESTROY"					value="58"/>
+		<const name="CORRECTED"							value="59"/>
+		<const name="SHIELD_DAMAGED"					value="60"/>
+		<const name="SHIELD_NO_DAMAGED"					value="61"/>
+		<const name="REINFORCEMENT"						value="62"/>
+		<const name="HOMING_MISSILE"					value="63"/>
+		<const name="CRUISE_MISSILE"					value="64"/>
+		<const name="MISSILE_AIR_DEFENSE"				value="65"/>
+		<const name="SQUADRON_DEBUFFED"					value="66"/>
+		<value_to_name/>
+
+		<enum name="NAMES" type="String">
+			<const name="TORPEDO"							value="RIBBON_TORPEDO" />
+			<const name="PLANE"								value="RIBBON_PLANE" />
+			<const name="CRIT"								value="RIBBON_CRIT" />
+			<const name="FRAG"								value="RIBBON_FRAG" />
+			<const name="BURN"								value="RIBBON_BURN" />
+			<const name="FLOOD"								value="RIBBON_FLOOD" />
+			<const name="CITADEL"							value="RIBBON_CITADEL" />
+			<const name="BASE_DEFENSE"						value="RIBBON_BASE_DEFENSE" />
+			<const name="BASE_CAPTURE"						value="RIBBON_BASE_CAPTURE" />
+			<const name="BASE_CAPTURE_ASSIST"				value="RIBBON_BASE_CAPTURE_ASSIST" />
+			<const name="SUPPRESSED"						value="RIBBON_SUPPRESSED" />
+			<const name="SECONDARY_CALIBER"					value="RIBBON_SECONDARY_CALIBER" />
+			<const name="MAIN_CALIBER_OVER_PENETRATION"		value="RIBBON_MAIN_CALIBER_OVER_PENETRATION" />
+			<const name="MAIN_CALIBER_PENETRATION"			value="RIBBON_MAIN_CALIBER_PENETRATION" />
+			<const name="MAIN_CALIBER_NO_PENETRATION"		value="RIBBON_MAIN_CALIBER_NO_PENETRATION" />
+			<const name="MAIN_CALIBER_RICOCHET"				value="RIBBON_MAIN_CALIBER_RICOCHET" />
+			<const name="BUILDING_KILL"						value="RIBBON_BUILDING_KILL" />
+			<const name="DETECTED"							value="RIBBON_DETECTED" />
+			<const name="BOMB_OVER_PENETRATION"				value="RIBBON_BOMB_OVER_PENETRATION" />
+			<const name="BOMB_PENETRATION"					value="RIBBON_BOMB_PENETRATION" />
+			<const name="BOMB_NO_PENETRATION"				value="RIBBON_BOMB_NO_PENETRATION" />
+			<const name="BOMB_RICOCHET"						value="RIBBON_BOMB_RICOCHET" />
+			<const name="ROCKET_PENETRATION"				value="RIBBON_ROCKET_PENETRATION" />
+			<const name="ROCKET_NO_PENETRATION"				value="RIBBON_ROCKET_NO_PENETRATION" />
+			<const name="SPLANE"							value="RIBBON_SPLANE" />
+			<const name="BULGE"								value="RIBBON_BULGE" />
+			<const name="BOMB_BULGE"						value="RIBBON_BOMB_BULGE" />
+			<const name="ROCKET_BULGE"						value="RIBBON_ROCKET_BULGE" />
+			<const name="DROP"								value="RIBBON_DROP" />
+			<const name="ROCKET_RICOCHET"					value="RIBBON_ROCKET_RICOCHET" />
+			<const name="ROCKET_OVER_PENETRATION"			value="RIBBON_ROCKET_OVER_PENETRATION" />
+			<const name="WAVE_KILL_TORPEDO"					value="RIBBON_WAVE_KILL_TORPEDO" />
+			<const name="WAVE_CUT_WAVE"						value="RIBBON_WAVE_CUT_WAVE" />
+			<const name="WAVE_HIT_VEHICLE"					value="RIBBON_WAVE_HIT_VEHICLE" />
+			<const name="ACOUSTIC_HIT_NEW"					value="RIBBON_ACOUSTIC_HIT_VEHICLE_NEW" />
+			<const name="ACOUSTIC_HIT_BLOCK"				value="RIBBON_ACOUSTIC_HIT_VEHICLE_BLOCK" />
+			<const name="ACID"								value="RIBBON_ACID" />
+			<const name="DBOMB_FULL_DAMAGE"					value="RIBBON_DBOMB_FULL_DAMAGE" />
+			<const name="DBOMB_PARTIAL_DAMAGE"				value="RIBBON_DBOMB_PARTIAL_DAMAGE" />
+			<const name="MINE"								value="RIBBON_MINE" />
+			<const name="MINE_DESTROY"						value="RIBBON_MINE_DESTROY" />
+			<const name="EFFECTIVE_SMOKES"					value="RIBBON_EFFECTIVE_SMOKES" />
+			<const name="AIRSHIP_SLOW" 						value="RIBBON_AIRSHIP_SLOW"/>
+			<const name="AIRSHIP_SLOW_ASSIST"				value="RIBBON_AIRSHIP_SLOW_ASSIST"/>
+			<const name="AIRSHIP_BOOST"						value="RIBBON_AIRSHIP_BOOST"/>
+			<const name="AIRSHIP_BOOST_ASSIST"				value="RIBBON_AIRSHIP_BOOST_ASSIST"/>
+			<const name="DAMAGED_SEGMENT"					value="RIBBON_DAMAGED_SEGMENT"/>
+			<const name="DESTROYED_SEGMENT"					value="RIBBON_DESTROYED_SEGMENT"/>
+			<const name="TANKING"							value="RIBBON_TANKING"/>
+			<const name="TORPEDO_DESTROY"					value="RIBBON_TORPEDO_DESTROY"/>
+			<const name="CORRECTED"							value="RIBBON_CORRECTED"/>
+			<const name="SHIELD_DAMAGED"					value="RIBBON_SHIELD_DAMAGED"/>
+			<const name="SHIELD_NO_DAMAGED"					value="RIBBON_SHIELD_NO_DAMAGED"/>
+			<const name="REINFORCEMENT"						value="RIBBON_REINFORCEMENT"/>
+			<const name="HOMING_MISSILE"					value="RIBBON_HOMING_MISSILE"/>
+			<const name="CRUISE_MISSILE"					value="RIBBON_CRUISE_MISSILE"/>
+			<const name="MISSILE_AIR_DEFENSE"				value="RIBBON_MISSILE_AIR_DEFENSE"/>
+			<const name="SQUADRON_DEBUFFED"					value="RIBBON_SQUADRON_DEBUFFED"/>
+		</enum>
+
+		<range name="RIBBON_MAIN_CALIBER"				values="MAIN_CALIBER_OVER_PENETRATION, MAIN_CALIBER_PENETRATION, MAIN_CALIBER_NO_PENETRATION, BULGE, MAIN_CALIBER_RICOCHET "/>
+		<range name="RIBBON_TORPEDO"					values="TORPEDO"/>
+		<range name="RIBBON_BOMB"						values="BOMB_OVER_PENETRATION, BOMB_PENETRATION, BOMB_NO_PENETRATION, BOMB_BULGE, BOMB_RICOCHET"/>
+		<range name="RIBBON_PLANE"						values="PLANE"/>
+		<range name="RIBBON_CRIT"						values="CRIT"/>
+		<range name="RIBBON_FRAG"						values="FRAG"/>
+		<range name="RIBBON_BURN"						values="BURN"/>
+		<range name="RIBBON_FLOOD"						values="FLOOD"/>
+		<range name="RIBBON_CITADEL"					values="CITADEL"/>
+		<range name="RIBBON_SUPPRESSED"					values="SUPPRESSED"/>
+		<range name="RIBBON_SECONDARY_CALIBER"			values="SECONDARY_CALIBER"/>
+		<range name="RIBBON_BUILDING_KILL"				values="BUILDING_KILL"/>
+		<range name="RIBBON_ROCKET"						values="ROCKET_OVER_PENETRATION, ROCKET_PENETRATION, ROCKET_NO_PENETRATION, ROCKET_BULGE, ROCKET_RICOCHET"/>
+		<range name="RIBBON_SPLANE"						values="SPLANE"/>
+		<range name="RIBBON_DBOMB"						values="DBOMB_FULL_DAMAGE, DBOMB_PARTIAL_DAMAGE"/>
+		<range name="RIBBON_ACOUSTIC_HIT"				values="ACOUSTIC_HIT_NEW, ACOUSTIC_HIT_BLOCK"/>
+		<range name="RIBBON_WAVE"						values="WAVE_HIT_VEHICLE, WAVE_KILL_TORPEDO, WAVE_CUT_WAVE"/>
+		<range name="RIBBON_ACID"						values="ACID"/>
+		<range name="RIBBON_MINE"						values="MINE"/>
+		<range name="RIBBON_DEARM"						values="MINE_DESTROY, TORPEDO_DESTROY"/>
+		<range name="RIBBON_VICTORY_ACTION"				values="BASE_CAPTURE, BASE_CAPTURE_ASSIST, AIRSHIP_SLOW, AIRSHIP_SLOW_ASSIST"/>
+		<range name="RIBBON_HELP_TEAM"					values="BASE_DEFENSE, DROP, AIRSHIP_BOOST, AIRSHIP_BOOST_ASSIST"/>
+		<range name="RIBBON_HIT_SEGMENT"				values="DAMAGED_SEGMENT, DESTROYED_SEGMENT"/>
+		<range name="RIBBON_SUPPORTED"					values="CORRECTED, EFFECTIVE_SMOKES, TANKING, DETECTED, REINFORCEMENT"/>
+		<range name="RIBBON_SHIELD"						values="SHIELD_DAMAGED, SHIELD_NO_DAMAGED"/>
+		<range name="RIBBON_MISSILE"					values="HOMING_MISSILE, CRUISE_MISSILE"/>
+		<range name="RIBBON_MISSILE_AIR_DEFENSE"		values="MISSILE_AIR_DEFENSE"/>
+		<range name="RIBBON_SQUADRON_DEBUFFED"			values="SQUADRON_DEBUFFED"/>
+	</enum>
+
+<!--	Ленты нужно располагать в порядке возрастания их ID-->
+	<enum name="RIBBON_TYPE" type="Integer">
+		<const name="MAIN_CALIBER"						value="0" />
+		<const name="TORPEDO"							value="1" />
+		<const name="BOMB"								value="2" />
+		<const name="PLANE"								value="3" />
+		<const name="CRIT"								value="4" />
+		<const name="FRAG"								value="5" />
+		<const name="BURN"								value="6" />
+		<const name="FLOOD"								value="7" />
+		<const name="CITADEL"							value="8" />
+		<const name="SUPPRESSED"						value="9" />
+		<const name="SECONDARY_CALIBER"					value="10" />
+		<const name="BUILDING_KILL"						value="11" />
+		<const name="ROCKET"							value="12" />
+		<const name="SPLANE"							value="13" />
+		<const name="DBOMB"								value="14" />
+		<const name="ACOUSTIC_HIT"						value="15" />
+		<const name="WAVE"								value="16" />
+		<const name="ACID"								value="17" />
+		<const name="MINE"								value="18" />
+		<const name="DEARM"								value="19" />
+		<const name="VICTORY_ACTION"					value="20" />
+		<const name="HELP_TEAM"							value="21"/>
+		<const name="HIT_SEGMENT"						value="22"/>
+		<const name="SUPPORTED"							value="23"/>
+		<const name="SHIELD"							value="24"/>
+		<const name="MISSILE"							value="25"/>
+		<const name="MISSILE_AIR_DEFENSE"				value="26"/>
+		<const name="SQUADRON_DEBUFFED"					value="27"/>
+		<value_to_name/>
+
+		<enum name="NAMES" type="String">
+			<const name="MAIN_CALIBER"						value="RIBBON_MAIN_CALIBER" />
+			<const name="TORPEDO"							value="RIBBON_TORPEDO" />
+			<const name="BOMB"								value="RIBBON_BOMB" />
+			<const name="PLANE"								value="RIBBON_PLANE" />
+			<const name="CRIT"								value="RIBBON_CRIT" />
+			<const name="FRAG"								value="RIBBON_FRAG" />
+			<const name="BURN"								value="RIBBON_BURN" />
+			<const name="FLOOD"								value="RIBBON_FLOOD" />
+			<const name="CITADEL"							value="RIBBON_CITADEL" />
+			<const name="SUPPRESSED"						value="RIBBON_SUPPRESSED" />
+			<const name="SECONDARY_CALIBER"					value="RIBBON_SECONDARY_CALIBER" />
+			<const name="BUILDING_KILL"						value="RIBBON_BUILDING_KILL" />
+			<const name="ROCKET"							value="RIBBON_ROCKET" />
+			<const name="SPLANE"							value="RIBBON_SPLANE" />
+			<const name="DBOMB"								value="RIBBON_DBOMB" />
+			<const name="ACOUSTIC_HIT"						value="RIBBON_ACOUSTIC_HIT" />
+			<const name="WAVE"								value="RIBBON_WAVE" />
+			<const name="ACID"								value="RIBBON_ACID" />
+			<const name="MINE"								value="RIBBON_MINE" />
+			<const name="DEARM"								value="RIBBON_DEARM" />
+			<const name="VICTORY_ACTION"					value="RIBBON_VICTORY_ACTION" />
+			<const name="HELP_TEAM"							value="RIBBON_HELP_TEAM"/>
+			<const name="HIT_SEGMENT"						value="RIBBON_HIT_SEGMENT"/>
+			<const name="SUPPORTED"							value="RIBBON_SUPPORTED"/>
+			<const name="SHIELD"							value="RIBBON_SHIELD"/>
+			<const name="MISSILE"							value="RIBBON_MISSILE"/>
+			<const name="MISSILE_AIR_DEFENSE"				value="RIBBON_MISSILE_AIR_DEFENSE"/>
+			<const name="SQUADRON_DEBUFFED"					value="RIBBON_SQUADRON_DEBUFFED"/>
+		</enum>
+	</enum>
+
+</constants>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<constants>
+	<enum name="VSYNC"	type="Integer">
+		<const name="DISABLED"				value="0"/>
+		<const name="ENABLED"				value="1"/>
+	</enum>
+
+	<enum name="GRAPHICS_PRESET"	type="String">
+		<const name="MAXIMUM"				value="MAXIMUM"/>
+		<const name="VERYHIGH"				value="VERYHIGH"/>
+		<const name="HIGH"					value="HIGH"/>
+		<const name="MEDIUM"				value="MEDIUM"/>
+		<const name="LOW"					value="LOW"/>
+		<const name="MINIMUM"				value="MINIMUM"/>
+		<const name="USER"					value="USER"/>
+	</enum>
+
+	<enum name="SOUND_MIXING_PRESET"	type="Integer">
+		<const name="ORIGINAL"				value="0"/>
+		<const name="CINEMATIC"				value="1"/>
+		<const name="SIMPLIFIED"			value="2"/>
+		<const name="NIGHT"					value="3"/>
+		<const name="CUSTOM"				value="4"/>
+	</enum>
+
+	<enum name="VOICE_CHAT"				type="Integer">
+		<const name="DISABLED"				value="0"/>
+		<const name="ENABLED"				value="1"/>
+	</enum>
+
+	<enum name="EARS"					type="Integer">
+		<const name="DISABLED"				value="0"/>
+		<const name="ENABLED"				value="1"/>
+	</enum>
+
+	<enum name="SHAKING_EFFECT"			type="Integer">
+		<const name="DISABLED"				value="0"/>
+		<const name="ENABLED"				value="1"/>
+	</enum>
+
+	<enum name="COLORBLIND_MODE"		type="Integer">
+		<const name="OFF"					value="0"/>
+		<const name="DEUTERANOPIA"			value="1"/>
+		<const name="PROTANOPIA"			value="2"/>
+		<const name="TRITANOPIA"			value="3"/>
+	</enum>
+
+	<enum name="PERF_IMPACT"			type="Integer">
+		<const name="LOW"					value="0"/>
+		<const name="MEDIUM"				value="1"/>
+		<const name="HIGH"					value="2"/>
+		<const name="VERYHIGH"				value="3"/>
+
+		<value_to_name/>
+	</enum>
+
+	<enum name="SHIPS_COMMAND_CATEGORY"				type="String">
+		<const name="MOVEMENTS"							value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_SHIPS_MOVEMENT"/>
+		<const name="WEAPONS"							value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_SHIPS_WEAPON"/>
+		<const name="CONSUMABLES"						value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_SHIPS_CONSUMABLES"/>
+		<const name="SUBMARINES"						value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_SHIPS_SUBMARINE"/>
+		<const name="CAMERA"							value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_SHIPS_CAMERA"/>
+		<const name="BATTLE_UI"							value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_SHIPS_BATTLEUI"/>
+		<const name="TACTICAL_TABLET"					value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_SHIPS_TACTICAL_TABLET"/>
+		<const name="RTS_AIR_SUPPORT"					value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_SHIPS_RTS_AIR_SUPPORT"/>
+	</enum>
+
+	<enum name="AVIATION_COMMAND_CATEGORY"			type="String">
+		<const name="AIR_CARRIER"						value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_AVIATION_CARRIER"/>
+		<const name="CONTROL"							value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_AVIATION_CONTROL"/>
+		<const name="WEAPON"							value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_AVIATION_WEAPON"/>
+		<const name="CONSUMABLES"						value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_AVIATION_CONSUMABLES"/>
+	</enum>
+
+	<enum name="CHAT_COMMAND_CATEGORY"				type="String">
+		<const name="ENABLE"							value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_CHAT_ENABLE"/>
+		<const name="QUICK_COMMANDS"					value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_CHAT_QUICK_COMMANDS"/>
+		<const name="DIVISIONS"							value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_CHAT_DIVISIONS"/>
+	</enum>
+
+	<enum name="SPECTATOR_MODE_COMMAND_CATEGORY"	type="String">
+		<const name="CONTROL"							value="IDS_PREFERENCES_KEYBINDINGS_SECTION_HEADER_SPECTATOR_MODE_CONTROL"/>
+	</enum>
+</constants>
