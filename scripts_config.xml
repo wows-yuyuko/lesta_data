@@ -1,0 +1,17 @@
+<scripts_config.xml checkPing="true" debugInfo="true">
+  <space>spaces/00_CO_ocean</space>
+  <offlineShip spawnDirection="0.0 0.0 0.0" spawnExteriorIndex="" spawnParamsIndex="PASC001_Erie_1936" spawnPosition="0.0 0.0 0.0"/>
+  <cursorScaleSpeed x="40" y="40"/>
+  <server online="true">
+    <host alias="МИР КОРАБЛЕЙ" csis="http://csis.tanki.su/csis/wowsru" ids="IDS_RU" realm="ru" lgrurl="https://lesta.ru">
+      <master addr="login1.korabli.su:20020"/>
+      <master addr="login2.korabli.su:20020"/>
+    </host>
+  </server>
+  <chat visibleLines="6"/>
+  <Dock3D>true</Dock3D>
+  <scriptProfiler address="0.0.0.0" enabled="true" netSend="false" port="6666"/>
+  <GameParams packed="true"/>
+  <disableTrainingRoom>false</disableTrainingRoom>
+  <targetPlatform>PC</targetPlatform>
+</scripts_config.xml>
